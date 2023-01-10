@@ -1,0 +1,35 @@
+{
+  "name": "react-static-page",
+  "version": "1.0.0",
+  "description": "React static page that takes json as input.",
+  "main": "index.jsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf dist && NODE_ENV=production babel index.jsx --out-dir dist --copy-files"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NathanCFoster/react_static_page.git"
+  },
+  "keywords": [
+    "react",
+    "json"
+  ],
+  "author": "NathanCFoster",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NathanCFoster/react_static_page/issues"
+  },
+  "homepage": "https://github.com/NathanCFoster/react_static_page#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.20.7",
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-react": "^7.18.6",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0"
+  }
+}
